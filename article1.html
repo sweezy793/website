@@ -1,14 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Samsung Galaxy S8: Everything you need to know</title>
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Ubuntu+Condensed" rel="stylesheet">
+  <title>Samsung Galaxy S8: Everything you need to know</title>
+  <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body> 
 <style>
-h1 {font-family: Agency FB;font-size: 50px;text-align:center;}
-h2 {font-family: Segoe UI Light;font-size: 32px;text-align:center;}
+h1 {font-family: UbuntuCondensed;font-size: 50px;text-align:center;}
+h2 {font-family: UbuntuCondensed;font-size: 32px;text-align:center;}
 h3 {font-family: sans-serif;font-size: 25px;text-align:center;}
+  #header-nav {
+    border-radius: 0;
+    border: 0;
+  }
+  body {
+    background: url(http://i.imgur.com/gSrIQkp.png);
+}
+  #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Times New Roman', Times, serif, serif;
+  color: #951C49;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+  
+  .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.panel-footer {
+  background-color: #222;
+}
+  
 </style>
+  <header>
+            <nav id="header-nav" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1><span class="glyphicon glyphicon-off"></span> TechnoBrats</h1></a>
+                    </div>
+                    <button type="button" class="btn navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div id="collapsable-nav" class="collapse navbar-collapse">                  
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a></li>
+                        <li class="active"><a href="news1"><span class="glyphicon glyphicon-text-background"></span> <br class="hidden-xs"> Articles</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> <br class="hidden-xs"> About Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+     </header><!--nav-->
+  
 <h1>Samsung Galaxy S8: Everything you need to know</h1>
 <center><img src="http://cdn.gsmarena.com/imgroot/news/17/01/galaxy-s8-dimensions/-728/gsmarena_007.jpg" alt="S8" style="width:600px;height:400px;"></center>
 <h2><u>Highlights</u></h2>
@@ -46,5 +123,20 @@ In any case, we’d be very surprised if Samsung didn’t follow Apple with a du
 <center><p style="font-family: sans-serif;">Just like the iPhone 7 rumours, the audio jack leaks of the Galaxy S8 have been aplenty. Reports indicate that Samsung is getting rid of the old 3.5mm audio standard, and will bundle a 3.5mm-headphone-to-USB Type-C adapter, just like Apple. A separate report also hints that Samsung will launch wireless headphones alongside as well.</p></center>
 <h3>Samsung Galaxy S8's Continuum-like feature</h3>
 <center><p style="font-family: sans-serif;">Lastly, the Galaxy S8 is also tipped to come with something similar to the popular Continuum feature seen on Windows 10 Mobile devices. This means that you could use your smartphone on your PC by connecting the device to the monitor, and the keyboard and mouse via Bluetooth (presumably). According to the leak, the feature is being called the Samsung Desktop Experience.</p></center>
+  
+  <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h4 class="text-center" style="color: #951C49;"> Created by Matruprasad Chand, Sarthak Sarangi, Aishwarya, Basak</h4>
+                </div>
+                    <div><h5 class="text-center">Coded by Sarthak Sarangi</h5></div>
+                <div>
+                    <p style="color: #951C49" class="text-center">Contact: somename@email.com</p>
+                </div>
+
+            </div><!--row-->
+        </div><!--container-->
+    </footer>
 </body>
 </html>
